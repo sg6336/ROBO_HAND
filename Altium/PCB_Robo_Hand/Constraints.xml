@@ -19,11 +19,26 @@
     </CNetClass>
   </CNetClasses>
   <CDifferentialPairs />
-  <CDifferentialPairClasses />
+  <CDifferentialPairClasses>
+    <CDifferentialPairClass Id="12750427-1c7c-40b1-9cb9-55b4a389ac19" Name="All Differential Pairs" IsPredefined="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CDifferentialPairs />
+      <ObservedDirectiveParamsUniqueIds />
+    </CDifferentialPairClass>
+  </CDifferentialPairClasses>
   <CPinPairs />
   <CxSigClasses />
   <CxNets />
-  <CXNetClasses />
+  <CXNetClasses>
+    <CXNetClass Id="cc513c80-d6fe-40b0-9e13-2ec9aa288e18" Name="All xNets" IsPredefined="true">
+      <Constraints />
+      <ConstraintsEx />
+      <ConstraintSets />
+      <CXNets />
+    </CXNetClass>
+  </CXNetClasses>
   <ConstraintClearancesMatrix>
     <CCMFromScopes>
       <CCMFromScope Id="fb298a19-57a3-4b95-8b62-abe709e639c7">
@@ -47,6 +62,8 @@
   <CImportedDirectiveUniqueIds />
   <OtherConstraints />
   <NetGroups />
-  <Settings UnitSystem="" />
-  <FileVersion MinorVersion="5" />
+  <Settings UnitSystem="Imperial" />
+  <FileVersion MinorVersion="5">
+    <FileVersionInfo>H4sIAAAAAAAACj2OQW6DMBBFrzIXACWE1HTBomqkrrKpUPfGDDCp8ViecSMkDl/Sqt0+6f3/3jIN7Wiez8bZuuirc1XUjTkWjTk1xWCe+tEatMdx3C7s8oJBuzViW21XCpw+MAlxaE/bO3q0gn+gqsumPGyvvESr1JMnXX/Ew3ZFETth280kEBPf0Ck4DmopCKTsUSALhQlcFuUFvF0xgah1n1JCN6Mg3Ml76BE8i8J9xgAcMTwknfF/lQJY+PpNAh7hxSvlBS4oNIV9U2erMPB+GFhBcoycdKd72JiD012zj/LyG9yj5AYmAQAA</FileVersionInfo>
+  </FileVersion>
 </ConstraintsData>
