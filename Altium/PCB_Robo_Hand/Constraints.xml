@@ -47,9 +47,16 @@
           <CCMToScope Id="fc253012-e9c6-43ed-87c6-6c755c0a46d2" SetId="00000000-0000-0000-0000-000000000000">
             <ConstraintObject Id="00000000-0000-0000-0000-000000000000" />
             <DefaultConstraintClearancesMatrixConstraint Id="00000000-0000-0000-0000-000000000000" Kind="0" Name="" Comment="" Description="" Attributes="" LayerType="0" LayerId="0" />
-            <CCMConstraints />
+            <CCMConstraints>
+              <CCMConstraint Id="1e922891-6d12-49db-be70-49a840a20230" Kind="0" Name="ClearanceAll_1" Comment="" Description="Clearance Constraint [Clearance = 10mil]" Scope1="OnOutside" Scope2="OnOutside" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= " LayerType="1" LayerId="0" OverrideClearancePairs="" />
+              <CCMConstraint Id="2ddacbd7-3ee9-4a7f-8f02-237771ddcd95" Kind="0" Name="ClearanceAll_2" Comment="" Description="Clearance Constraint [Clearance = 10mil]" Scope1="OnMid" Scope2="OnMid" Attributes="NETSCOPE=DifferentNets|LAYERKIND=SameLayer|GAP=10mil|GENERICCLEARANCE=10mil|IGNOREPADTOPADCLEARANCEINFOOTPRINT=FALSE|OBJECTCLEARANCES= " LayerType="2" LayerId="0" OverrideClearancePairs="" />
+            </CCMConstraints>
           </CCMToScope>
         </CCMToScopes>
+      </CCMFromScope>
+      <CCMFromScope Id="fbfbc438-a46a-477f-b413-94f845d7ed82">
+        <ConstraintObject Id="12750427-1c7c-40b1-9cb9-55b4a389ac19" />
+        <CCMToScopes />
       </CCMFromScope>
     </CCMFromScopes>
   </ConstraintClearancesMatrix>
