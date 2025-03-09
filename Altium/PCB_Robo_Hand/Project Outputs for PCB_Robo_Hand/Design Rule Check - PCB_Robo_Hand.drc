@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\Public\Documents\Altium\Projects\ROBO_HAND\Altium\PCB_Robo_Hand\PCB_Robo_Hand.PcbDoc
 Date     : 09.03.2025
-Time     : 21:41:48
+Time     : 23:10:01
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -16,9 +16,6 @@ Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (Disabled)(All)
-Rule Violations :0
-
-Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=100mil) (InxNetClass('All xNets'))
 Rule Violations :0
 
 Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
@@ -63,16 +60,25 @@ Rule Violations :0
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
-Processing Rule : Supply Net(s)(InNet('Q0'))
-Rule Violations :0
-
-Processing Rule : Supply Net(s)(InNet('Q3'))
+Processing Rule : Supply Net(s)(InNet('SH_CP'))
 Rule Violations :0
 
 Processing Rule : Supply Net(s)(InNet('Q5'))
 Rule Violations :0
 
-Processing Rule : Supply Net(s)(InNet('SH_CP'))
+Processing Rule : Supply Net(s)(InNet('+3V'))
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('GND'))
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('+5'))
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('Q0'))
+Rule Violations :0
+
+Processing Rule : Supply Net(s)(InNet('Q1'))
 Rule Violations :0
 
 Processing Rule : Supply Net(s)(InNet('Q4'))
@@ -81,7 +87,7 @@ Rule Violations :0
 Processing Rule : Supply Net(s)(InNet('Q2'))
 Rule Violations :0
 
-Processing Rule : Supply Net(s)(InNet('Q1'))
+Processing Rule : Supply Net(s)(InNet('Q3'))
 Rule Violations :0
 
 Processing Rule : Supply Net(s)(InNet('DS'))
@@ -93,4 +99,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:04
