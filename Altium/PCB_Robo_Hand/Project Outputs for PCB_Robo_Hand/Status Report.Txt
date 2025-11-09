@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PCB_Robo_Hand.PrjPcb]
+   Generated File[PCB_Robo_Hand.TXT]
+   Generated File[PCB_Robo_Hand.DRL]
+   Generated File[PCB_Robo_Hand.LDP]
+   Generated File[PCB_Robo_Hand.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:28:02 On 11.03.2025
